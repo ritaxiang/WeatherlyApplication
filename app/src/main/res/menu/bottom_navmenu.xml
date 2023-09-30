@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@id/home"
+        />
+    <item android:title="Activity"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@id/activity"
+        />
+    <item android:title="Clothing"
+        android:icon="@drawable/ic_baseline_clothing_24"
+        android:id="@id/clothing"
+        />
+
+    <item android:title="Transportation"
+        android:icon="@drawable/ic_baseline_transportation_filled_24"
+        android:id="@id/transportation"
+        />
+    <item android:title="Locations"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:id="@id/locations"
+        />
+</menu>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalbackground"
+    tools:context=".EventSuggestion">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="-12dp"
+        android:layout_marginBottom="550dp"
+        android:text="Activity Assistant"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="-1dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="cond">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="472dp"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="temp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="485dp"
+        android:text="|"
+        android:textColor="@color/white"
+        android:textSize="50sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/suggestionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="400dp"
+        android:text="Suggestions"
+        android:textColor="#517dd4"
+        android:textStyle="bold"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="100dp"
+        android:text="activity"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@id/bnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="-1dp"
+        app:menu="@menu/bottom_navmenu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/pageIcon"
+        android:layout_width="392dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-146dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="165dp"
+        android:src="@drawable/ic_baseline_person_24">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/activitySuggest"
+        android:layout_width="122dp"
+        android:layout_height="217dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="278dp" />
+
+
+</RelativeLayout>

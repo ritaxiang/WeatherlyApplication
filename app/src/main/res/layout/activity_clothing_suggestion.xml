@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalbackground"
+    tools:context=".ClothingSuggestion">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="564dp"
+        android:text="Clothing
+             Picked For You"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="-1dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="cond">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="472dp"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="temp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="485dp"
+        android:text="|"
+        android:textColor="@color/white"
+        android:textSize="50sp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/suggestionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="400dp"
+        android:text="Suggestions"
+        android:textColor="#517dd4"
+        android:textStyle="bold"
+        android:textSize="30sp"></TextView>
+
+    <TextView
+        android:id="@+id/suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="265dp"
+        android:text="suggestion text"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+    <TextView
+        android:id="@+id/accessoriesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="200dp"
+        android:text="Accessories"
+        android:textColor="#517dd4"
+        android:textStyle="bold"
+        android:textSize="30sp"></TextView>
+
+    <TextView
+        android:id="@+id/accessoriesSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="67dp"
+        android:text="accessories suggestion"
+        android:textColor="@color/black"
+        android:textSize="25sp"></TextView>
+
+    <ImageView
+        android:id="@+id/suggestionPic"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="5dp"
+        >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/accessoriesPic"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="5dp"
+        >
+    </ImageView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@id/bnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="-1dp"
+        app:menu="@menu/bottom_navmenu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="561dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-241dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="91dp"
+        android:src="@drawable/shirt">
+
+    </ImageView>
+
+</RelativeLayout>

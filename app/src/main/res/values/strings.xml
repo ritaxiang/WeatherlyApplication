@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weatherly</string>
+
+    <string-array name="city_names">
+        <item>Ottawa</item>
+        <item>Toronto</item>
+        <item>Montreal</item>
+    </string-array>
+</resources>
