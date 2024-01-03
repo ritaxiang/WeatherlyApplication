@@ -1,7 +1,7 @@
-package com.example.weatherapptutorial;
+package com.example.weatherly;
 
-import static com.example.weatherapptutorial.R.drawable.bikesuggest;
-import static com.example.weatherapptutorial.R.drawable.drivesuggest;
+import static com.example.weatherly.R.drawable.bikesuggest;
+import static com.example.weatherly.R.drawable.drivesuggest;
 import static java.lang.Integer.parseInt;
 
 import androidx.annotation.NonNull;

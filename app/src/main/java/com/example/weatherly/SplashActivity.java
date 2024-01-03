@@ -1,10 +1,9 @@
-package com.example.weatherapptutorial;
+package com.example.weatherly;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 
 //class for showing the start-up page
 public class SplashActivity extends AppCompatActivity {

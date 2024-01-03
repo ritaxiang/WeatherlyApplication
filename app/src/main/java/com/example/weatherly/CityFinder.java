@@ -2,7 +2,7 @@
 Description: The RecyclerViewAdapter class is used to help two unrelated classes work together.
 In this case, it grabs the data from locations class and use that data to create a recycler view containing the saved cities.
  */
-package com.example.weatherapptutorial;
+package com.example.weatherly;
 
 import androidx.appcompat.app.AppCompatActivity;
 

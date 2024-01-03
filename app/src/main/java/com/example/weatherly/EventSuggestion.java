@@ -1,8 +1,8 @@
-package com.example.weatherapptutorial;
+package com.example.weatherly;
 
-import static com.example.weatherapptutorial.R.drawable.skiingsuggest;
-import static com.example.weatherapptutorial.R.drawable.swimmingsuggest;
-import static com.example.weatherapptutorial.R.drawable.walksuggest;
+import static com.example.weatherly.R.drawable.skiingsuggest;
+import static com.example.weatherly.R.drawable.swimmingsuggest;
+import static com.example.weatherly.R.drawable.walksuggest;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
