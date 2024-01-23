@@ -13,13 +13,13 @@ the weather conditions of the day, which makes it highly customizable.
 
 Weatherly is suitable for a wide range of age groups and different financial statuses, as weather apps are used by many, and Weatherly is free.
 
-# What we used?
+# What we used? 🌦️
 
 - Android Studio (Java and XML)
 - API for getting weather data: Weatherbit.io
 - API testing: Postman
 
-# Development
+# Development ☃️
 
 1. Concept Plan Document
    ```bash
